@@ -13,6 +13,12 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
+Route::get('/niit', function () {
     return view('welcome');
 });
+
+// Route::get('/hello', function () {
+//     return view('firstpage');
+// });
+
+Route::get('/hello','App\Http\Controllers\myController@index');
