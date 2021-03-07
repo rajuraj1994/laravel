@@ -16,11 +16,10 @@ class myController extends Controller
         return view('firstpage');
     }
 
-    /**
-     * Show the form for creating a new resource.
-     *
-     * @return \Illuminate\Http\Response
-     */
+    public function showproductform(){
+           return view('addproduct');
+    }
+
     public function create()
     {
         //

@@ -22,3 +22,6 @@ Route::get('/niit', function () {
 // });
 
 Route::get('/hello','App\Http\Controllers\myController@index');
+
+//to show addproduct form
+Route::get('/addproduct','App\Http\Controllers\myController@showproductform');
